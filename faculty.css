@@ -1,0 +1,231 @@
+.first_box_facbuldr{
+    /*border:1px solid transparent;*/
+    min-height: 188px;
+    width: 100%;
+    font-size: 15px;
+    color: #c1bbbb;
+    box-shadow: 0px 0px 5px 3px #c7bfbf;
+    margin:1.5em 0;
+}
+
+.frst_box_facbuldr_inner1{
+    border:1px solid #0071bc;
+    min-height: 188px;
+    background: #0071bc;
+    padding-top: 3.5em;
+    color:white;
+}
+
+input.input_border {
+    border-color: transparent;
+    border-bottom: 1px solid #c1bbbb;
+    text-indent: 8px;
+    outline: none;
+    color: #696969;
+    position: relative;
+    left: 1em;
+    top: -6px;
+    margin-bottom: 5px;
+}
+
+.full_tbl{
+    padding-top: 10px;
+
+}
+
+.table_cls
+{
+    margin-left: 1em;
+}
+
+.scnd_row{
+    padding: 1em;
+}
+
+.last_box_facbuldr{
+    /*border:1px solid transparent;*/
+    min-height: 380px;
+    width: 100%;
+    font-size: 15px;
+    color: #c1bbbb;
+    box-shadow: 0px 0px 5px 3px #c7bfbf;
+    margin:1.5em 0;
+}
+
+
+/*-------------------radio button--------------------*/
+
+
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  /*color: #bdbdbd;*/
+  /*font-family: Arial, sans-serif;*/
+  font-size: 15px;
+  font-weight: 100;
+}
+
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+input[type="radio"] + label span {
+  /*background-color: gray;*/
+ border:2px solid #bdbdbd; 
+}
+
+input[type="radio"]:checked + label span {
+  background-color: #22aae2;
+  border-color: transparent;
+}
+
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
+  -webkit-transition: background-color 0.4s linear;
+  -o-transition: background-color 0.4s linear;
+  -moz-transition: background-color 0.4s linear;
+  transition: background-color 0.4s linear;
+}
+
+td.radio_input_margn{
+        position: relative;
+    left: 3.1em;
+}
+
+label.radio_input_margn1{
+        position: relative;
+    left: 3em;
+}
+
+i.fa.fa-plus-circle{
+    color: #fbb03b;
+        margin-left: 0.7em;
+    margin-top: 0.5em;
+}
+
+span.adres_plus_btn{
+    position: relative;
+    top: -5px;
+    left: 1em;
+}
+
+
+/*----------------------button-------------------------------*/
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.3), 0 3px 3px rgba(0, 0, 0, 0.15), 0 3px 2px -2px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 -0.5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.button {
+    padding: 8px 16px;
+    border: 2px solid none;
+    border-radius: 5px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.button.styl-material {
+    -webkit-transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 200ms background cubic-bezier(0.5, 0, 0.4, 1);
+    background: #02c6ab;
+    margin-left: 13px;
+}
+
+.button.styl-material:focus {
+    outline: none;
+}
+
+.ripple-obj{
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    fill: #1c9cd1;
+}
+.ripple-obj1{
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    fill: #7c7d7d;
+}
+
+button.can_but{
+    background-color: #666666 !important;
+}
+
+span.row_hd{
+    color: #666666;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+
+span.main_profile{
+    color:#666666;
+    font-size: 20px;
+        position: relative;
+    top: 5px;
+}
+
+.frst_main_row{
+    margin-top: 2.5em;
+}
+
+.frst_top{
+    margin-top:1em;
+}
+input[type=text] {
+    color: #696969;
+}
+
+input[name=name]{
+    color: #696969;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input[name=Designation]
+{
+    color: #0071bc;
+}
+
+span.buton_save{
+       border: 1px solid #00bfa5;
+    width: 56px;
+    height: 45px;
+    background: #00bfa5;
+    color: white;
+    margin-left: 2em;
+    /* border-radius: 5px; */
+    padding: 2px 9px;
+    position: relative;
+    top: -7px;
+    box-shadow: 0px 0px 7px 2px #c7bfbf;
+    cursor: pointer;
+}
